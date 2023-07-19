@@ -1,0 +1,56 @@
+body {
+   overflow-x: hidden;
+}
+
+#carouselExampleCaptions {
+    max-width: 80%;
+    margin: auto;
+}
+
+.col-md-3 {
+    cursor: pointer;
+}
+
+hr {
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.headline .card:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.headline .d-grid .btn:hover {
+    background: linear-gradient(to right,rgb(98, 5, 5), red);
+}
+
+.headline a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer {
+    color: white;
+}
+
+footer .whatsapp {
+    width: 20%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+footer .instagram {
+    width: 20%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer img {
+    border-radius: 10px;
+}
+
+footer p {
+    border-top: 1px solid rgb(62, 59, 59);
+}
