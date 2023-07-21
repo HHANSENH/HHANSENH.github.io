@@ -1,5 +1,5 @@
 body {
-   overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 #carouselExampleCaptions {
@@ -7,7 +7,7 @@ body {
     margin: auto;
 }
 
-.col-md-3 {
+main .headline .col-md-3 {
     cursor: pointer;
 }
 
