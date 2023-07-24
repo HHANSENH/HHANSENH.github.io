@@ -5,6 +5,7 @@
 
 body {
     overflow-x: hidden;
+    overflow-y: auto;
     width: 100%;
 }
 
@@ -120,3 +121,49 @@ footer a {
         transition: 0.7s;
     }
 }
+
+.navbarkecil ul li {
+    background: linear-gradient(to left, rgb(98, 5, 5), red);
+    list-style: none;
+    color: white;
+    cursor: pointer;
+}
+
+.navbarkecil ul li:hover {
+    background: linear-gradient(to bottom, rgb(98, 5, 5), red);
+}
+
+
+@keyframes fadein {
+    to {
+        opacity: 1;
+    }
+}
+
+.fadein {
+    opacity: 0;
+    animation: fadein 3s forwards;
+}
+
+.spesifikasi .card .harga {
+    border-radius: 30px;
+    color: white;
+}
+
+.spesifikasi .card .spek {
+    border-radius: 10px;
+}
+
+.spesifikasi .card .spek ul li {
+    list-style-type: circle;
+    font-size: 0.9em;
+}
+
+.card {
+    border: none;
+}
+
+.varian p {
+    font-size: 0.8em;
+}
+
