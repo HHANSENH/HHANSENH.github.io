@@ -13,7 +13,6 @@ interior.addEventListener("click", function () {
   int.classList.add("active");
   ekst.classList.remove("active");
   safe.classList.remove("active");
-  // interior.style.background = 'linear-gradient(to bottom, rgb(98, 5, 5), red)'
   int.style.display = "flex";
   ekst.style.display = "none";
   safe.style.display = "none";
@@ -42,7 +41,6 @@ eksterior.addEventListener("click", function () {
   ekst.classList.add("active");
   int.classList.remove("active");
   safe.classList.remove("active");
-  // eksterior.style.background = 'linear-gradient(to bottom, rgb(98, 5, 5), red)'
   int.style.display = "none";
   ekst.style.display = "flex";
   safe.style.display = "none";
@@ -71,7 +69,6 @@ safety.addEventListener("click", function (e) {
   safe.classList.add("active");
   int.classList.remove("active");
   ekst.classList.remove("active");
-  // safety.style.background = 'linear-gradient(to bottom, rgb(98, 5, 5), red)'
   int.style.display = "none";
   ekst.style.display = "none";
   safe.style.display = "flex";
